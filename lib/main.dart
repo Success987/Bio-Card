@@ -13,30 +13,30 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: SafeArea(
         child: Scaffold(
-          backgroundColor: Colors.blue,
+          backgroundColor: Colors.redAccent,
           body: Padding(
             padding: const EdgeInsets.only(left: 10, right: 10),
             child:
                 Column(mainAxisAlignment: MainAxisAlignment.center, children: [
               CircleAvatar(
                 backgroundImage: AssetImage('image/logo.jpg'),
-                radius: 75,
+                radius: 65,
               ),
               SizedBox(
-                height: 10,
+                height: 13.5,
               ),
               Text(
                 'Success Bartaula',
                 style: TextStyle(
-                    fontSize: 40,
-                    color: Colors.white,
+                    fontSize: 30,
+                    color: Colors.yellow,
                     fontWeight: FontWeight.bold),
               ),
               Text(
                 'APP DEVELOPER',
                 style: TextStyle(
                     fontSize: 18,
-                    color: Colors.white,
+                    color: Colors.black,
                     fontWeight: FontWeight.bold,
                     letterSpacing: 2),
               ),
@@ -56,14 +56,14 @@ class MyApp extends StatelessWidget {
                   child: Row(children: [
                     Icon(
                       Icons.phone,
-                      color: Colors.teal,
+                      color: Colors.blue,
                     ),
                     SizedBox(
                       width: 10,
                     ),
                     Text(
                       '+977 9742454653',
-                      style: TextStyle(color: Colors.teal),
+                      style: TextStyle(color: Colors.purple),
                     ),
                   ]),
                 ),
@@ -78,7 +78,7 @@ class MyApp extends StatelessWidget {
                     children: [
                       Icon(
                         Icons.email,
-                        color: Colors.teal,
+                        color: Colors.grey,
                       ),
                       SizedBox(
                         width: 10,
